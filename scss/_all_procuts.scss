@@ -1,0 +1,20 @@
+.my-procuts {
+
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    h5{
+        font-size: 16px;
+        padding-top:10px ;
+    }
+    p{
+        font-weight:bold;
+        color:#405c90;
+    }
+}
+
+.my-collapsed::after{
+background-image:none ;
+}

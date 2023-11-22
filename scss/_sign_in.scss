@@ -1,0 +1,15 @@
+.my-width{
+    margin: 10px 0;
+    width: 400px;
+    padding: 10px;
+}
+input:focus{
+    border: 1px solid rgb(65, 184, 248) ;
+    box-shadow: none !important;
+}
+.user-page{
+    width: 1000px;
+    margin: auto;
+    border: 1px solid rgba(164, 164, 164, 0.474);
+    padding: 30px;
+}

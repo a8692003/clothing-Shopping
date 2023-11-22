@@ -1,0 +1,160 @@
+.my-a {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+
+    .my-img-small {
+        border: 1px solid rgb(196, 196, 196);
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .my-img-small:hover {
+        border: 1px solid #90A7D1;
+    }
+}
+
+.my-img-big {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.my-btn-1 {
+    background-color: #90A7D1;
+    color: white;
+}
+
+.my-btn-1:hover {
+    background-color: #829ccd;
+    color: white;
+}
+
+.my-btn-2 {
+    background-color: #d19090;
+    color: white;
+}
+
+.my-btn-2:hover {
+    background-color: #c97878;
+    color: white;
+}
+
+// 數量按鈕
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.number-input {
+    border: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.number-input,
+.number-input * {
+    box-sizing: border-box;
+
+}
+
+.number-input button {
+    outline: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+    box-shadow: 0px 0px 1px #474747;
+    /* border-radius: 50%; */
+}
+
+.number-input button:before,
+.number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 1rem;
+    height: 2px;
+    background-color: #212121;
+    transform: translate(-50%, -50%);
+}
+
+.number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+    font-family: sans-serif;
+    max-width: 5rem;
+    padding: .5rem;
+    border: none;
+    border-width: 0 2px;
+    height: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+
+// 購買方式
+.pay {
+    background-color: rgba(239, 239, 239, 0.877);
+}
+
+.procuts-img {
+    width: 100%;
+    height: 50vh;
+    object-fit: contain;
+}
+
+//加入購物車按鈕
+
+//遮罩
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 100px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 100px;
+    z-index: 3000;
+    border-radius: 10px;
+
+    i {
+        color: #90A7D1;
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+}

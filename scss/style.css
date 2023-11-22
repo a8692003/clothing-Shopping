@@ -1,0 +1,125 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+header #logo {
+  display: flex;
+  justify-content: center;
+}
+header #logo img {
+  width: 200px;
+}
+header i:hover {
+  color: #90A7D1;
+}
+
+.my-carouse-button {
+  background-color: #90A7D1;
+  border-radius: 20px;
+  width: 1em;
+  height: 50px;
+}
+
+.my-nav a[class^=nav] {
+  margin: 0 20px;
+}
+.my-nav .my-nav-item a {
+  position: relative;
+}
+.my-nav .my-nav-item a::after {
+  content: " ";
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: -5px;
+  border-bottom: 4px solid #90A7D1;
+  transition: 0.3s;
+}
+.my-nav .my-nav-item a:hover::after {
+  right: 0%;
+  left: 0%;
+}
+.my-nav .my-dropdown-item:hover {
+  background-color: #90A7D1;
+}
+
+.my-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.my-card .card-1 {
+  height: 3000px;
+}
+
+.my-new-products img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.my-new-products h5 {
+  font-size: 16px;
+  padding-top: 10px;
+}
+.my-new-products p {
+  font-weight: bolder;
+}
+
+article h2.my-border {
+  padding: 0 20px;
+  display: inline-block;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+footer .about {
+  line-height: 1em;
+}
+footer .about a {
+  text-decoration: none;
+}
+
+.my-item img:hover {
+  opacity: 0.5;
+  background: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+#my-page-link {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+#my-page-link:focus,
+#my-page-link:hover {
+  border-bottom: 4px solid #90A7D1;
+}
+
+.my-button::after {
+  display: none;
+}
+
+.policy,
+.contact {
+  color: #90A7D1;
+}
+
+.my-top-buttom {
+  color: #5c90f0;
+}
+
+.my-top-buttom:hover {
+  color: #4281f6;
+}
+
+* {
+  text-decoration: none;
+}
+
+.contact-form div {
+  margin: 1em 0;
+}/*# sourceMappingURL=style.css.map */
